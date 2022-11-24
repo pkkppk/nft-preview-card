@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  width: 1440px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.box {
+  background-color: hsl(216, 50%, 16%);
+  margin: 5% auto 0;
+  border-radius: 15px;
+  box-shadow: 0px 20px 20px 10px hsl(217, 70%, 11%);
+}
+
+.box-content {
+  font-size: 18px;
+  padding: 0 20px 20px 20px;
+  color: hsl(215, 51%, 70%);
+}
+
+.card-img-top {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* Title + text */
+
+.card-title {
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-weight: 400;
+}
+
+/* ETH + time */
+
+.eth {
+  text-align: left;
+  padding-left: 0px;
+  font-weight: 300;
+}
+
+.eth p {
+  color: hsl(178, 100%, 50%);
+}
+
+.time {
+  text-align: right;
+  padding-right: 0px;
+  font-weight: 300;
+}
+
+hr {
+  border-color: hsl(215, 51%, 70%);
+  border-width: 1px;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+/* Avatar + author name */
+
+.img-avatar {
+  width: 3rem;
+}
+
+.col-10 {
+  padding-top: 10px;
+  font-weight: 300;
+}
+
+.author-name {
+  color: hsl(0, 0%, 100%);
+}
+
+
+.attribution {
+  text-align: center;
+}
